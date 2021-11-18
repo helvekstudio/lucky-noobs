@@ -1,0 +1,62 @@
+body{
+    background-color:#212121 !important;
+    color:white !important;
+}
+
+/* CLASS COLORS */
+.necro-color{
+    color:#3EB300;
+}
+.necro-background{
+    background-color:#3EB300;
+}
+
+
+header{
+    padding:100px 50px;
+    height: 700px;
+}
+
+.content-container{
+    padding:25px 50px 50px 50px;
+}
+
+.progress{
+    height:35px !important;
+    background:#254B18;
+    border-radius: 0 !important;
+    font-size: 20px !important;
+}
+
+.btn-necro btn-check:focus+.btn,  .btn-necro.btn:focus{
+    box-shadow: 0 0 0 0.05rem #3fb3002c !important;
+}
+.btn-necro{
+    margin-top:-10px;
+}
+
+#pills-tab .nav-link{
+    font-size:24px !important;
+    background:transparent;
+    color:white;
+    border-radius:0;
+    transition: border-bottom 0.2s ease-in-out;
+}
+
+#pills-tab .nav-link:hover{
+    color:#3EB300;
+    border-bottom:3px solid #3fb3009a;
+    margin-bottom: -3px;
+}
+button.nav-link.active{
+    color:#3EB300 !important;
+    border-bottom:3px solid #3fb3009a !Important;
+    margin-bottom: -3px;
+}
+
+.shadow-effect{
+    box-shadow: 
+        inset 0px 11px 8px -5px rgba(204, 204, 204, 0.26);
+}
+
+
