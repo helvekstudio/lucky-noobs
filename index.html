@@ -139,7 +139,7 @@
     <!--header end-->
 
     <!--tab start-->
-    <ul class="nav nav-pills" id="pills-tab" role="tablist" style="background-color:#212121; border-top:1px solid #707070; justify-content: space-around;">
+    <ul class="nav nav-pills " id="pills-tab" role="tablist" style="background-color:#212121; border-top:1px solid #707070; justify-content: space-around;">
       <li class="nav-item" role="presentation">
         <button class="nav-link active" id="pills-equipment-tab" data-bs-toggle="pill" data-bs-target="#pills-equipment" type="button" role="tab" aria-controls="pills-equipment" aria-selected="true">Equipment</button>
       </li>
@@ -157,21 +157,859 @@
       </li>
     </ul>
     <div class="tab-content shadow-effect content-container" id="pills-tabContent">
+
+      <!--Equipment Tab-->
       <div class="tab-pane fade show active" id="pills-equipment" role="tabpanel" aria-labelledby="pills-equipment-tab">
-        <ul class="nav nav-pills mb-3 justify-content-end" id="pills-tab" role="tablist">
+        <ul class="nav nav-pills mb-3 justify-content-end" id="second-tab-system" role="tablist">
           <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-version-tab" data-bs-toggle="pill" data-bs-target="#pills-version" type="button" role="tab" aria-controls="pills-version" aria-selected="true">version 1</button>
+            <button class="nav-link active" id="pills-version-tab" data-bs-toggle="pill" data-bs-target="#pills-version" type="button" role="tab" aria-controls="pills-version" aria-selected="true">
+              <img src="/assets/images/Bild_5.png" class="img-fluid rounded-start me-2 mb-1" style="height: 20px; min-width: 20px" alt="...">Radiance
+            </button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-version2-tab" data-bs-toggle="pill" data-bs-target="#pills-version2" type="button" role="tab" aria-controls="pills-version2" aria-selected="false">version 2</button>
+            <button class="nav-link" id="pills-version2-tab" data-bs-toggle="pill" data-bs-target="#pills-version2" type="button" role="tab" aria-controls="pills-version2" aria-selected="false">
+              <img src="/assets/images/Bild_5.png" class="img-fluid rounded-start me-2 mb-1" style="height: 20px; min-width: 20px" alt="...">Marksmanship
+            </button>
+          </li>
+          <li class="nav-item my-auto" role="presentation">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn rounded ms-3" style="background-color: #254B18; padding:11px 20px" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fas fa-info text-white " style="font-size: 14px;"></i> 
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
           </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-version" role="tabpanel" aria-labelledby="pills-version-tab">...</div>
-          <div class="tab-pane fade" id="pills-version2" role="tabpanel" aria-labelledby="pills-version2-tab">...</div>
+          <div class="tab-pane fade show active" id="pills-version" role="tabpanel" aria-labelledby="pills-version-tab">
+            <div class="row">
+              <div class="col-3" style="margin-top:-55px">
+                <h3 class="text-center mb-4" style="font-size:22px">Armor</h3>
+                <div class="single-item-box">
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_7.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Helmet</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_8.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Shoulders</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_9.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Coat</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_10.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Gloves</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_11.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Leggins</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_12.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Boots</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="text-center mb-4 mt-4" style="font-size:22px">Runes</h3>
+                <div class="single-item-box ">
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_23.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Superior Rune</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Of Tormenting</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_23.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Superior Rune</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Of Tormenting</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3" style="margin-top:-55px">
+                <h3 class="text-center mb-4" style="font-size:22px">Trinkets</h3>
+                <div class="single-item-box">
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_18.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Back Item</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_17.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Ring</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_14.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Ring</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_13.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Accessory</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_15.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Accessory</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_16.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Amulet</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="text-center mb-4 mt-4" style="font-size:22px">Infusions</h3>
+                <div class="single-item-box ">
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_27.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Infusions</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Malign 18x</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_27.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Infusions</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Malign 18x</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6" style="margin-top:45px">
+                <div class="row">
+                  <div class="col-6">
+                    <h3 class="text-center mb-4" style="font-size:22px">Weapon Sets</h3>
+                  </div>
+                  <div class="col-6">
+                    <h3 class="text-center mb-4" style="font-size:22px">Sigils</h3>
+                  </div>
+                </div> 
+                <div class="single-item-box">
+                  <div class="row">
+                    <div class="col-6">
+                      <div>
+                        <div class="card mb-3">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_22.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Main Hand 1</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Viper's</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card mb-3">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_21.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Off Hand 1</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Viper's</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 ">
+                      <div>
+                        <div class="card mb-3 ">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_24.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Superior Sigil</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Sigil of Torment</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card mb-3">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_25.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Superior Sigil</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Sigil of Bursting</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-item-box mt-4">
+                  <div class="row">
+                    <div class="col-6">
+                      <div>
+                        <div class="card mb-3">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_20.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Main Hand 2</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Viper's</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card mb-3">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_20.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Off Hand 2</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Viper's</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 ">
+                      <div>
+                        <div class="card mb-3 ">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_26.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Superior Sigil</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Sigil of Geomancy</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card mb-3">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_26.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Superior Sigil</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Sigil of Geomancy</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <h3 class="text-center mb-4 mt-4" style="font-size:22px">Buffood</h3>
+                    <div class="single-item-box ">
+                      <div class="card mb-3">
+                        <div class="d-flex g-0">
+                          <div>
+                            <img src="/assets/images/Bild_29.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                          </div>
+                          <div>
+                            <div class="card-body p-0">
+                              <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Food</small></p>
+                              <h5 class=" text-white" style="font-size:19px">Beef Rendang</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <h3 class="text-center mb-4 mt-4" style="font-size:22px">Utility</h3>
+                    <div class="single-item-box ">
+                      <div class="card mb-3">
+                        <div class="d-flex g-0">
+                          <div>
+                            <img src="/assets/images/Bild_28.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                          </div>
+                          <div>
+                            <div class="card-body p-0">
+                              <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Utility</small></p>
+                              <h5 class=" text-white" style="font-size:19px">Toxic Crystal</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>                           
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-version2" role="tabpanel" aria-labelledby="pills-version2-tab">
+            <div class="row">
+              <div class="col-3" style="margin-top:-55px">
+                <h3 class="text-center mb-4" style="font-size:22px">Armor</h3>
+                <div class="single-item-box">
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_7.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Helmet</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_8.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Shoulders</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_9.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Coat</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_10.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Gloves</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_11.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Leggins</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_12.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Boots</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="text-center mb-4 mt-4" style="font-size:22px">Runes</h3>
+                <div class="single-item-box ">
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_23.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Superior Rune</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Of Tormenting</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_23.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Superior Rune</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Of Tormenting</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3" style="margin-top:-55px">
+                <h3 class="text-center mb-4" style="font-size:22px">Trinkets</h3>
+                <div class="single-item-box">
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_18.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Back Item</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_17.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Ring</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_14.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Ring</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_13.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Accessory</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_15.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Accessory</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_16.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Amulet</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Berserker</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="text-center mb-4 mt-4" style="font-size:22px">Infusions</h3>
+                <div class="single-item-box ">
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_27.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Infusions</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Malign 18x</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="d-flex g-0">
+                      <div>
+                        <img src="/assets/images/Bild_27.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                      </div>
+                      <div>
+                        <div class="card-body p-0">
+                          <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Infusions</small></p>
+                          <h5 class=" text-white" style="font-size:19px">Malign 18x</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6" style="margin-top:45px">
+                <div class="row">
+                  <div class="col-6">
+                    <h3 class="text-center mb-4" style="font-size:22px">Weapon Sets</h3>
+                  </div>
+                  <div class="col-6">
+                    <h3 class="text-center mb-4" style="font-size:22px">Sigils</h3>
+                  </div>
+                </div> 
+                <div class="single-item-box">
+                  <div class="row">
+                    <div class="col-6">
+                      <div>
+                        <div class="card mb-3">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_22.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Main Hand 1</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Viper's</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card mb-3">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_21.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Off Hand 1</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Viper's</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 ">
+                      <div>
+                        <div class="card mb-3 ">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_24.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Superior Sigil</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Sigil of Torment</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card mb-3">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_25.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Superior Sigil</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Sigil of Bursting</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-item-box mt-4">
+                  <div class="row">
+                    <div class="col-6">
+                      <div>
+                        <div class="card mb-3">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_20.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Main Hand 2</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Viper's</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card mb-3">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_20.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Off Hand 2</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Viper's</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 ">
+                      <div>
+                        <div class="card mb-3 ">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_26.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Superior Sigil</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Sigil of Geomancy</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card mb-3">
+                          <div class="d-flex g-0">
+                            <div>
+                              <img src="/assets/images/Bild_26.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                            </div>
+                            <div>
+                              <div class="card-body p-0">
+                                <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Superior Sigil</small></p>
+                                <h5 class=" text-white" style="font-size:19px">Sigil of Geomancy</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <h3 class="text-center mb-4 mt-4" style="font-size:22px">Buffood</h3>
+                    <div class="single-item-box ">
+                      <div class="card mb-3">
+                        <div class="d-flex g-0">
+                          <div>
+                            <img src="/assets/images/Bild_29.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                          </div>
+                          <div>
+                            <div class="card-body p-0">
+                              <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Food</small></p>
+                              <h5 class=" text-white" style="font-size:19px">Beef Rendang</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <h3 class="text-center mb-4 mt-4" style="font-size:22px">Utility</h3>
+                    <div class="single-item-box ">
+                      <div class="card mb-3">
+                        <div class="d-flex g-0">
+                          <div>
+                            <img src="/assets/images/Bild_28.png" class="img-fluid rounded-start me-2" style="height: 55px; min-width: 55px" alt="...">
+                          </div>
+                          <div>
+                            <div class="card-body p-0">
+                              <p class="p-0 m-0  text-white" style="font-size:19px; line-height:1.3"><small class="text-muted">Utility</small></p>
+                              <h5 class=" text-white" style="font-size:19px">Toxic Crystal</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>                           
+            </div>
+          </div>
         </div>
-      <div>weqwe</div>
       </div>
+      <!--Equipment Tab End-->
+
       <div class="tab-pane fade" id="pills-skills" role="tabpanel" aria-labelledby="pills-skills-tab">
         f
       </div>
